@@ -1,0 +1,20 @@
+:root{
+  background-color: black;
+  padding: 0px;
+}
+
+.main-page{
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  z-index: 10;        
+  align-items: center;
+  margin: 0px;
+}
